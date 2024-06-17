@@ -3,6 +3,7 @@ import Floating from "./../../img/FloatingSurv.png";
 import Economy from "./../../img/EconomySurv.png";
 import Parkour from "./../../img/Parkour.png";
 import PvP from "./../../img/PvP.png";
+import Surv1_21 from "./../../img/Surv1-21.png";
 
 export default function MiniGames() {
   return (
@@ -14,7 +15,22 @@ export default function MiniGames() {
 
       <div className='flex flex-col justify-center items-center mt-6'>
 
+
       <div className='w-[1050px] h-[380px] bg-white rounded-2xl flex'>
+          <div className='w-[580px] h-[380px] rounded-2xl'>
+            <img src={Surv1_21} alt="" className='w-[580px] h-[380px] rounded-2xl'/>
+          </div>
+          <div className='flex justify-center items-center w-[470px] h-[380px] rounded-2xl flex-col'>
+            <h1 className="text-3xl font-bold">Survival 1.21</h1>
+            <div className='w-[150px] h-[2px] bg-black mt-2'></div>
+            <p className='mt-2 text-center'> - Survival server na verzi 1.21, <br /> který čeká na tvé objevování nových věcí v této verzi!
+
+              </p>
+
+          </div>
+        </div>
+
+      <div className='w-[1050px] h-[380px] bg-white rounded-2xl flex mt-3'>
           <div className='w-[580px] h-[380px] rounded-2xl'>
             <img src={Floating} alt="" className='w-[580px] h-[380px] rounded-2xl'/>
           </div>

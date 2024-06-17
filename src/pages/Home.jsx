@@ -14,7 +14,7 @@ export default function Home() {
       <div className='w-full h-[650px] bg-green-400'>
         <About />
       </div>
-      <div className='w-full h-[1750px] bg-neutral-900'>
+      <div className='w-full h-[2450px] bg-neutral-900'>
         <MiniGames />
       </div>
       <div className='w-full h-[85px] bg-neutral-800'>
